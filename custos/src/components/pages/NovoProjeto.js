@@ -5,16 +5,16 @@ import ProjectForm from '../Project/ProjectForm'
 function NovoProjeto (){
 
     const history = useNavigate()
-    function createPost(projetos){
-      projetos.cost = 0
-      projetos.services = []
+    function createPost(projeto){
+      projeto.cost = 0
+      projeto.services = []
 
       fetch("http://localhost:8080/projetos",{
         method: 'POST',
         headers: {
             'Content-type': 'application/json',
         },
-        body: JSON.stringify(projetos),
+        body: JSON.stringify(projeto),
       })
       .then((resp => resp.json())
       .then((data) => {history('/projects', { message: 'Projeto criado com sucesso!' })

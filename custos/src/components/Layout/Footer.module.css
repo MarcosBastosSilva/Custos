@@ -3,6 +3,7 @@
     color: white;
     padding: 3em;
     text-align: center;
+    padding-top: 50px;
     
 }
 
@@ -20,6 +21,7 @@
     color:#FFBB33;
 }
 .social_list svg{
+    padding-top: 10px;
     font-size: 1.5em;
     cursor: pointer;
 

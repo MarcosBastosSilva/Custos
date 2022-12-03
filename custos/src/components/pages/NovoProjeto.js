@@ -5,8 +5,8 @@ function NovoProjeto (){
     return (
         <div className={styles.newproject_container}>
             <h1>Criar Projeto</h1>
-            <p>Crie seu Projeto, e após isso adicione os serviços desejados!</p>
-            <ProjetctForm/>
+            <h2>Crie seu Projeto, e após isso adicione os serviços desejados!</h2>
+            <ProjetctForm btnText="Criar Projeto"/>
         </div>
     )
 }

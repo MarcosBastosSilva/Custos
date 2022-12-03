@@ -8,8 +8,6 @@ import Footer from './components/Layout/Footer';
 import NovoProjeto from './components/pages/NovoProjeto'
 import Projeto from './components/pages/Projeto';
 
-
-
 function App() {
   return (
    
@@ -25,7 +23,6 @@ function App() {
       </Routes>
       </Container>
       <Footer/>
-
     </Router>
   );
 }
